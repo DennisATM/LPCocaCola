@@ -1,0 +1,173 @@
+body{
+    font-size: .9em;
+}
+
+.navbar-img{
+    width: 100px;
+    height: 60px;
+    margin: 1px 30px;
+
+}
+
+.text-banner{
+    top: 40%;
+    width: 500px;
+}
+
+.card-img{
+    top: 20%;
+}
+
+.nosotros{
+    background-image: url(../img/latas.jpg);
+    padding: 20px 0;
+}
+
+#galeria img{
+    position: relative;
+    filter: grayscale(1);
+}
+
+#galeria img:hover{
+    filter: grayscale(0);
+}
+
+#galeria .color:hover h3{
+    display: none;
+}
+
+#galeria h3{
+    top:120px;
+    left: 165px;
+    color: white;
+    position:absolute;
+    z-index: 2;
+}
+
+#contactenos{
+    margin-top: 0;
+    padding-top: 0;
+}
+
+#contactenos iframe{
+    position: absolute;
+    margin-top: 0;
+    padding-top: 0;
+    width: 100%;
+    height: 100%;
+    filter: grayscale(1);
+}
+
+#contactenos form{
+    top:150px;
+    left: 880px;
+    width: 32vw;
+    height: 50vh;
+    margin:30px;
+    padding: 38px;
+    background-color: red;
+    position: relative;
+    z-index: 1;
+}
+
+#contactenos .form-control{
+    width: 95%;
+    margin:10px;
+}
+
+footer{
+    position: relative;
+    top: 300px;
+    width: 100vw;
+    background-color: black;
+}
+
+footer img{
+    width: 16vw;
+}
+
+footer h5{
+    margin-top: 40px;
+}
+
+footer a li{
+    list-style: none;
+    color: white;
+    font-weight: bold;
+}
+footer ul{
+    padding-left: 0;
+}
+footer i{
+    font-size: 2em;
+}
+#temas{
+    height: 30vh;
+    margin-top: auto;
+}
+
+@media(max-width:760px){
+
+    body{
+        font-size: .7em;
+    }
+
+    .navbar{
+        width: 100vw;
+    }
+
+    .navbar-img{
+        width: 90px;
+        height: 50px;
+        margin: 1px 1px;
+    }
+
+    h1{
+        font-size: 2em;
+    }
+
+    .card-banner{
+        margin-top: 65px;
+    }
+
+    .text-banner{
+        top: 0;
+        left: 0;
+        width: 300px;
+    }
+
+    .nosotros{
+        padding-top: 2px;
+        top: 500px;
+    }
+
+    #galeria h3{
+        top:70px;
+        left: 105px;
+    }
+
+    #contactenos iframe{
+        position: relative;
+        height: 50vh;
+    }
+    #contactenos form{
+        top:0px;
+        left: 0px;
+        margin: 0;
+        width: 100vw;
+        height: 60vh;
+        padding: 38px;       
+    }
+    footer{
+        top: 0;
+        left: 0;
+        width: 100vw;
+    }
+    footer img{
+        margin: 0;
+        width: 100vw;
+    }
+    footer h6{
+        padding-left:2px;
+    }
+}
